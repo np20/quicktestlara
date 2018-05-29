@@ -1,6 +1,6 @@
 <?php
 
-//require '/vendor/consolibyte/quickbooks/QuickBooks.php';
+require '/vendor/consolibyte/quickbooks/QuickBooks.php';
 
 return [
 
