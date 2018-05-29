@@ -1,10 +1,9 @@
 <?php
 
-
+require_once '../vendor/consolibyte/quickbooks/QuickBooks.php';
 
 return [
 
-    'require_once' => '../vendor/consolibyte/quickbooks/QuickBooks.php',
     /*
     |--------------------------------------------------------------------------
     | Application Name
