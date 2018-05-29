@@ -1,5 +1,5 @@
 <?php
-
+error_reporting('0');
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
