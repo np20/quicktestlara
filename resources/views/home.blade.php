@@ -8,11 +8,7 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+                   
         <?php
             $qbo_obj = new \App\Http\Controllers\QuickBookController();
             $qbo_connect = $qbo_obj->qboConnect();
