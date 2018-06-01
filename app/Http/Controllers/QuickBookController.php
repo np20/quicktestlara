@@ -74,6 +74,5 @@ class QuickBookController extends Controller
     public function qboDisconnect(){
         $this->IntuitAnywhere->disconnect(env('QBO_USERNAME'), env('QBO_TENANT'),true);
         return redirect()->intended("/yourpath");// afer disconnect redirect where you want
- 
     }
 }
